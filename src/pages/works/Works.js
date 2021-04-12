@@ -3,8 +3,11 @@ import scrollConverter from '@bchteam/scroll-converter';
 import styled from 'styled-components';
 import * as _ from 'lodash';
 
-import WorkYellowImage from '../../assets/work-yellow.jpeg';
-import WorkOrangeImage from '../../assets/work-orange.jpeg';
+import LovingVincent from '../../assets/lovingvincent.png';
+import Rouje from '../../assets/rouje.png';
+import Renoir from '../../assets/renoir.png';
+import ZaraHome from '../../assets/zarahome.png';
+import TheLord from '../../assets/thelordoftherings.png';
 
 export function Works() {
   const refObject = createRef();
@@ -51,30 +54,53 @@ export function Works() {
         <div className={'work-boxes'}>
           <div
             className={'work-box'}
+            onClick={() => window.open('http://jk2749.dothome.co.kr/lovingvincent/')}
+          >
+            <img
+              src={LovingVincent}
+              alt={'work'}
+            />
+            <h5>multi-parallax</h5>
+          </div>
+          <div
+            className={'work-box'}
             onClick={() => window.open('http://jk2749.dothome.co.kr/zarahome/')}
           >
             <img
-              src={WorkOrangeImage}
+              src={ZaraHome}
               alt={'work'}
             />
+            <h5>Responsive template</h5>
           </div>
           <div
             className={'work-box'}
-            onClick={() => window.open('http://jk2749.dothome.co.kr/lovingvincent/')}
+            onClick={() => window.open('http://jk2749.dothome.co.kr/rouje/')}
           >
             <img
-              src={WorkYellowImage}
+              src={Rouje}
               alt={'work'}
             />
+            <h5>javascript/ jQuery</h5>
           </div>
           <div
             className={'work-box'}
-            onClick={() => window.open('http://jk2749.dothome.co.kr/lovingvincent/')}
+            onClick={() => window.open('http://jk2749.dothome.co.kr/renoir/')}
           >
             <img
-              src={WorkYellowImage}
+              src={Renoir}
               alt={'work'}
             />
+            <h5>mobile</h5>
+          </div>
+          <div
+            className={'work-box'}
+            onClick={() => window.open('https://jk2749.github.io/movie/')}
+          >
+            <img
+              src={TheLord}
+              alt={'work'}
+            />
+            <h5>API</h5>
           </div>
         </div>
       </div>
@@ -98,9 +124,8 @@ const Wrapper = styled.div`
   
   .title {
     position: absolute;
-    top: 6.5vw;
+    top: 6vw;
     left: 50%;
-    
     transform: translateX(-50%);
     font-size: 3.12vw;
     text-align: center;
@@ -124,5 +149,10 @@ const Wrapper = styled.div`
     transform: translate(0, -50%);
     
     display: flex;
+  }
+  h5{
+    margin-top:10px;
+    font-weight: 500;
+    font-size: 30px;
   }
 `
