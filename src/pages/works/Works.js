@@ -134,6 +134,7 @@ const Wrapper = styled.div`
   .work-box {
     margin: 0 165px;
     width: 1060px;
+    cursor:pointer;
     
     img {
      width: 100%;
@@ -154,5 +155,6 @@ const Wrapper = styled.div`
     margin-top:10px;
     font-weight: 500;
     font-size: 30px;
+    // text-align:center;
   }
 `
