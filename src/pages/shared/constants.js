@@ -1,6 +1,6 @@
 import * as _ from 'lodash';
 
-export const MAIN_PATH = 'portfolio';
+export const MAIN_PATH = '/';
 
 export const OTHER_PATHS = ['about', 'works']
 

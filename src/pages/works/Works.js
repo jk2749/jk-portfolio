@@ -138,7 +138,7 @@ const Wrapper = styled.div`
     
     img {
      width: 100%;
-      border: solid 3px black;
+      
     }
   }
   
