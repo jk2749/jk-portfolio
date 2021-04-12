@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route,} from 'react-router-dom';
 
 import './index.css';
 import reportWebVitals from './reportWebVitals';
@@ -13,17 +13,12 @@ import { Contact } from './pages/contact/Contact';
 
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Switch>
-      <Route exact path='/**/about' component={About}/>
-      <Route exact path='/about' component={About}/>
-      <Route exact path='/**/works' component={Works}/>
-      <Route exact path='/works' component={Works}/>
-      <Route exact path='/**/portfolio' component={Main}/>
-      <Route exact path='/portfolio' component={Main}/>
-      <Route exact path='/**/contact' component={Contact}/>
-      <Route exact path='/contact' component={Contact}/>
-    </Switch>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <Route exact path='/about' component={About}/>
+    <Route exact path='/works' component={Works}/>
+    <Route exact path='/' component={Main}/>
+    <Route exact path='/contact' component={Contact}/>
+    
     <Route component={Logo}/>
     <Route component={RightMenu}/>
   </BrowserRouter>,
