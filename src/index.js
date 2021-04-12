@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route,} from 'react-router-dom';
+import { BrowserRouter, Route, HashRouter} from 'react-router-dom';
 
 import './index.css';
 import reportWebVitals from './reportWebVitals';
@@ -13,15 +13,20 @@ import { Contact } from './pages/contact/Contact';
 
 
 ReactDOM.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <Route exact path='/about' component={About}/>
-    <Route exact path='/works' component={Works}/>
-    <Route exact path='/' component={Main}/>
-    <Route exact path='/contact' component={Contact}/>
+  <HashRouter>
+    
+      
+      <Route exact path='/about' component={About}/>
+      
+      <Route exact path='/works' component={Works}/>
+      
+      <Route exact path='/' component={Main}/>
+      
+      <Route exact path='/contact' component={Contact}/>
     
     <Route component={Logo}/>
     <Route component={RightMenu}/>
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root')
 );
 

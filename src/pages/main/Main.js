@@ -28,6 +28,7 @@ const Wrapper = styled.div`
   height: 100vh;
   position: relative;
   background-color: black;
+  overflow-x: hidden;
   
   .background {
     position: absolute;
