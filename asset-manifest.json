@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/jk-portfolio/static/css/main.97c6b7ff.chunk.css",
-    "main.js": "/jk-portfolio/static/js/main.128e008c.chunk.js",
-    "main.js.map": "/jk-portfolio/static/js/main.128e008c.chunk.js.map",
-    "runtime-main.js": "/jk-portfolio/static/js/runtime-main.93736c48.js",
-    "runtime-main.js.map": "/jk-portfolio/static/js/runtime-main.93736c48.js.map",
-    "static/js/2.48b416f2.chunk.js": "/jk-portfolio/static/js/2.48b416f2.chunk.js",
-    "static/js/2.48b416f2.chunk.js.map": "/jk-portfolio/static/js/2.48b416f2.chunk.js.map",
-    "static/js/3.df753dc0.chunk.js": "/jk-portfolio/static/js/3.df753dc0.chunk.js",
-    "static/js/3.df753dc0.chunk.js.map": "/jk-portfolio/static/js/3.df753dc0.chunk.js.map",
+    "main.js": "/jk-portfolio/static/js/main.b8d9d092.chunk.js",
+    "main.js.map": "/jk-portfolio/static/js/main.b8d9d092.chunk.js.map",
+    "runtime-main.js": "/jk-portfolio/static/js/runtime-main.d6c193e6.js",
+    "runtime-main.js.map": "/jk-portfolio/static/js/runtime-main.d6c193e6.js.map",
+    "static/js/2.c4a86251.chunk.js": "/jk-portfolio/static/js/2.c4a86251.chunk.js",
+    "static/js/2.c4a86251.chunk.js.map": "/jk-portfolio/static/js/2.c4a86251.chunk.js.map",
+    "static/js/3.86954c17.chunk.js": "/jk-portfolio/static/js/3.86954c17.chunk.js",
+    "static/js/3.86954c17.chunk.js.map": "/jk-portfolio/static/js/3.86954c17.chunk.js.map",
     "index.html": "/jk-portfolio/index.html",
     "static/css/main.97c6b7ff.chunk.css.map": "/jk-portfolio/static/css/main.97c6b7ff.chunk.css.map",
-    "static/js/2.48b416f2.chunk.js.LICENSE.txt": "/jk-portfolio/static/js/2.48b416f2.chunk.js.LICENSE.txt",
+    "static/js/2.c4a86251.chunk.js.LICENSE.txt": "/jk-portfolio/static/js/2.c4a86251.chunk.js.LICENSE.txt",
     "static/media/contact-background.5af1573c.png": "/jk-portfolio/static/media/contact-background.5af1573c.png",
     "static/media/icon-bulb.075e94b4.png": "/jk-portfolio/static/media/icon-bulb.075e94b4.png",
     "static/media/icon-strong-point.e4f698c6.png": "/jk-portfolio/static/media/icon-strong-point.e4f698c6.png",
@@ -27,9 +27,9 @@
     "static/media/zarahome.6fb96a6f.png": "/jk-portfolio/static/media/zarahome.6fb96a6f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.93736c48.js",
-    "static/js/2.48b416f2.chunk.js",
+    "static/js/runtime-main.d6c193e6.js",
+    "static/js/2.c4a86251.chunk.js",
     "static/css/main.97c6b7ff.chunk.css",
-    "static/js/main.128e008c.chunk.js"
+    "static/js/main.b8d9d092.chunk.js"
   ]
 }
