@@ -25,7 +25,7 @@ export function Contact() {
           <div className={'bar'}/>
           <div className={'item'}>
             Phone-number
-            <div>010-5883-</div>
+            <div>010-5883-2749</div>
           </div>
           <div className={'bar'}/>
           <div className={'item'}>
@@ -39,7 +39,7 @@ export function Contact() {
 }
 
 const Wrapper = styled.div`
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   position: relative;
   overflow-x: hidden;
