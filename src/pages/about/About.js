@@ -59,7 +59,7 @@ const Wrapper = styled.div`
   }
   .strong{
     position: absolute;
-    top:960px;
+    top:40%;
     height:510px;
     width:100vw;
     background-color: #dbe6f0;
@@ -70,12 +70,13 @@ const Wrapper = styled.div`
     font-size:1.146vw;
   }
   .motto{
+    margin:0;
     position: absolute;
-    top:1470px;
+    top:62%;
     height:510px;
     width:100vw;
     text-align: right;
-    padding: 50px 303px;
+    padding: 10px 303px;
     font-family: 'Noto Sans KR' sans-serif;
   }
   .motto img{
@@ -86,7 +87,7 @@ const Wrapper = styled.div`
   }
   .community{
     position: absolute;
-    top:1980px;
+    top:83%;
     height:510px;
     width:100vw;
     background-color: #dbe6f0;
