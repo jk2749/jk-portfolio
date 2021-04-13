@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, HashRouter} from 'react-router-dom';
+import { BrowserRouter, Route, HashRouter, Redirect, Switch } from 'react-router-dom';
 
 import './index.css';
 import reportWebVitals from './reportWebVitals';
@@ -14,16 +14,13 @@ import { Contact } from './pages/contact/Contact';
 
 ReactDOM.render(
   <HashRouter>
-    
-      
+    <Switch>
       <Route exact path='/about' component={About}/>
-      
-      <Route exact path='/works' component={Works}/>
-      
+      {/*<Route exact path='/works' component={Works}/>*/}
       <Route exact path='/' component={Main}/>
-      
-      <Route exact path='/contact' component={Contact}/>
-    
+      {/*<Route exact path='/contact' component={Contact}/>*/}
+      <Redirect path='*' to='/' />
+    </Switch>
     <Route component={Logo}/>
     <Route component={RightMenu}/>
   </HashRouter>,
