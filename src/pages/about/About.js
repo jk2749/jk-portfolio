@@ -80,7 +80,7 @@ export class About extends React.Component {
 // };
 
 const Wrapper = styled.div`
-  width: 100vw;
+  width: 100%;
   height: 150vw;
   position: relative;
   
@@ -95,7 +95,7 @@ const Wrapper = styled.div`
     position: absolute;
     top:40%;
     height:510px;
-    width:100vw;
+    width:100%;
     background-color: #dbe6f0;
     padding: 60px 303px;
     font-family: 'Noto Sans KR' sans-serif;
@@ -108,7 +108,7 @@ const Wrapper = styled.div`
     position: absolute;
     top:62%;
     height:510px;
-    width:100vw;
+    width:100%;
     text-align: right;
     padding: 10px 303px;
     font-family: 'Noto Sans KR' sans-serif;
@@ -121,9 +121,9 @@ const Wrapper = styled.div`
   }
   .community{
     position: absolute;
-    top:83%;
-    height:510px;
-    width:100vw;
+    top: 83%;
+    height: 510px;
+    width: 100%;
     background-color: #dbe6f0;
     padding: 60px 303px;
     font-family: 'Noto Sans KR' sans-serif;
