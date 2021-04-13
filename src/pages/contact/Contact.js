@@ -25,7 +25,7 @@ export function Contact() {
           <div className={'bar'}/>
           <div className={'item'}>
             Phone-number
-            <div>010-5883-2749</div>
+            <div>010-5883-</div>
           </div>
           <div className={'bar'}/>
           <div className={'item'}>
