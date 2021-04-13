@@ -16,9 +16,9 @@ ReactDOM.render(
   <HashRouter>
     <Switch>
       <Route exact path='/about' component={About}/>
-      {/*<Route exact path='/works' component={Works}/>*/}
+      <Route exact path='/works' component={Works}/>
       <Route exact path='/' component={Main}/>
-      {/*<Route exact path='/contact' component={Contact}/>*/}
+      <Route exact path='/contact' component={Contact}/>
       <Redirect path='*' to='/' />
     </Switch>
     <Route component={Logo}/>
