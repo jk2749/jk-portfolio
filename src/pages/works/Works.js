@@ -8,6 +8,7 @@ import Rouje from '../../assets/rouje.png';
 import Renoir from '../../assets/renoir.png';
 import ZaraHome from '../../assets/zarahome.png';
 import TheLord from '../../assets/thelordoftherings.png';
+import SwatCh from '../../assets/swatch.png';
 
 export function Works() {
   const refObject = createRef();
@@ -91,6 +92,16 @@ export function Works() {
               alt={'work'}
             />
             <h5>mobile</h5>
+          </div>
+          <div
+            className={'work-box'}
+            onClick={() => window.open('http://jk2749.dothome.co.kr/swatch/')}
+          >
+            <img
+              src={SwatCh}
+              alt={'work'}
+            />
+            <h5>event page</h5>
           </div>
           <div
             className={'work-box'}
