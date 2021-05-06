@@ -9,6 +9,7 @@ import Renoir from '../../assets/renoir.png';
 import ZaraHome from '../../assets/zarahome.png';
 import TheLord from '../../assets/thelordoftherings.png';
 import SwatCh from '../../assets/swatch.png';
+import PopUp from '../../assets/popup.png';
 
 export function Works() {
   const refObject = createRef();
@@ -95,16 +96,6 @@ export function Works() {
           </div>
           <div
             className={'work-box'}
-            onClick={() => window.open('http://jk2749.dothome.co.kr/swatch/')}
-          >
-            <img
-              src={SwatCh}
-              alt={'work'}
-            />
-            <h5>event page</h5>
-          </div>
-          <div
-            className={'work-box'}
             onClick={() => window.open('https://jk2749.github.io/movie/')}
           >
             <img
@@ -112,6 +103,26 @@ export function Works() {
               alt={'work'}
             />
             <h5>API</h5>
+          </div>
+          <div
+            className={'work-box'}
+            onClick={() => window.open('http://jk2749.dothome.co.kr/popup/')}
+          >
+            <img
+              src={PopUp}
+              alt={'work'}
+            />
+            <h5>popup page</h5>
+          </div>
+          <div
+            className={'work-box'}
+            onClick={() => window.open('http://jk2749.dothome.co.kr/swatch/')}
+          >
+            <img
+              src={SwatCh}
+              alt={'work'}
+            />
+            <h5>event page</h5>
           </div>
         </div>
       </div>
