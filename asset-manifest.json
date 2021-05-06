@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jk-portfolio/static/css/main.97c6b7ff.chunk.css",
-    "main.js": "/jk-portfolio/static/js/main.1b002e0b.chunk.js",
-    "main.js.map": "/jk-portfolio/static/js/main.1b002e0b.chunk.js.map",
+    "main.js": "/jk-portfolio/static/js/main.37c4a801.chunk.js",
+    "main.js.map": "/jk-portfolio/static/js/main.37c4a801.chunk.js.map",
     "runtime-main.js": "/jk-portfolio/static/js/runtime-main.d6c193e6.js",
     "runtime-main.js.map": "/jk-portfolio/static/js/runtime-main.d6c193e6.js.map",
     "static/js/2.10b26430.chunk.js": "/jk-portfolio/static/js/2.10b26430.chunk.js",
@@ -21,6 +21,7 @@
     "static/media/menu-black.434531ee.svg": "/jk-portfolio/static/media/menu-black.434531ee.svg",
     "static/media/menu.34efd23b.svg": "/jk-portfolio/static/media/menu.34efd23b.svg",
     "static/media/photo.17f00718.jpeg": "/jk-portfolio/static/media/photo.17f00718.jpeg",
+    "static/media/popup.2d2d9754.png": "/jk-portfolio/static/media/popup.2d2d9754.png",
     "static/media/renoir.b84746a4.png": "/jk-portfolio/static/media/renoir.b84746a4.png",
     "static/media/rouje.78efa45d.png": "/jk-portfolio/static/media/rouje.78efa45d.png",
     "static/media/swatch.710cebd4.png": "/jk-portfolio/static/media/swatch.710cebd4.png",
@@ -31,6 +32,6 @@
     "static/js/runtime-main.d6c193e6.js",
     "static/js/2.10b26430.chunk.js",
     "static/css/main.97c6b7ff.chunk.css",
-    "static/js/main.1b002e0b.chunk.js"
+    "static/js/main.37c4a801.chunk.js"
   ]
 }
