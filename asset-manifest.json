@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jk-portfolio/static/css/main.97c6b7ff.chunk.css",
-    "main.js": "/jk-portfolio/static/js/main.37c4a801.chunk.js",
-    "main.js.map": "/jk-portfolio/static/js/main.37c4a801.chunk.js.map",
+    "main.js": "/jk-portfolio/static/js/main.795579b2.chunk.js",
+    "main.js.map": "/jk-portfolio/static/js/main.795579b2.chunk.js.map",
     "runtime-main.js": "/jk-portfolio/static/js/runtime-main.d6c193e6.js",
     "runtime-main.js.map": "/jk-portfolio/static/js/runtime-main.d6c193e6.js.map",
     "static/js/2.10b26430.chunk.js": "/jk-portfolio/static/js/2.10b26430.chunk.js",
@@ -13,6 +13,7 @@
     "static/css/main.97c6b7ff.chunk.css.map": "/jk-portfolio/static/css/main.97c6b7ff.chunk.css.map",
     "static/js/2.10b26430.chunk.js.LICENSE.txt": "/jk-portfolio/static/js/2.10b26430.chunk.js.LICENSE.txt",
     "static/media/contact-background.5af1573c.png": "/jk-portfolio/static/media/contact-background.5af1573c.png",
+    "static/media/disney.8b434027.png": "/jk-portfolio/static/media/disney.8b434027.png",
     "static/media/icon-bulb.075e94b4.png": "/jk-portfolio/static/media/icon-bulb.075e94b4.png",
     "static/media/icon-strong-point.e4f698c6.png": "/jk-portfolio/static/media/icon-strong-point.e4f698c6.png",
     "static/media/icon-talk.a3593286.png": "/jk-portfolio/static/media/icon-talk.a3593286.png",
@@ -32,6 +33,6 @@
     "static/js/runtime-main.d6c193e6.js",
     "static/js/2.10b26430.chunk.js",
     "static/css/main.97c6b7ff.chunk.css",
-    "static/js/main.37c4a801.chunk.js"
+    "static/js/main.795579b2.chunk.js"
   ]
 }
