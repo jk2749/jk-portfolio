@@ -10,6 +10,7 @@ import ZaraHome from '../../assets/zarahome.png';
 import TheLord from '../../assets/thelordoftherings.png';
 import SwatCh from '../../assets/swatch.png';
 import PopUp from '../../assets/popup.png';
+import DisNey from '../../assets/disney.png';
 
 export function Works() {
   const refObject = createRef();
@@ -123,6 +124,16 @@ export function Works() {
               alt={'work'}
             />
             <h5>event page</h5>
+          </div>
+          <div
+            className={'work-box'}
+            onClick={() => window.open('http://jk2749.dothome.co.kr/disney/')}
+          >
+            <img
+              src={DisNey}
+              alt={'work'}
+            />
+            <h5>jQuery tab-scroll</h5>
           </div>
         </div>
       </div>
